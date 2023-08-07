@@ -112,6 +112,21 @@ menu {
   color: var(--color-pressed);
 }
 
+.menu-item-current {
+  position: relative;
+
+  color: var(--color-pressed);
+}
+.menu-item-current::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -28px;
+  width: 100%;
+  height: 4px;
+  background-color: var(--color-pressed);
+  border-radius: 2px;
+}
 .contact-list {
   display: flex;
   gap: 40px;

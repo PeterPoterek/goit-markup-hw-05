@@ -73,23 +73,39 @@ menu {
 
   background-color: #fcfcfc;
 
-  top: 25%;
-  left: 45%;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
   width: 408px;
   height: 584px;
-  z-index: 2;
 
-  margin: 0 auto;
+  border-radius: 4px;
 }
 .modal-close-button {
   position: absolute;
 
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
   right: 0;
   top: 0;
 
   margin-top: 24px;
   margin-right: 24px;
 }
+.modal-button-icon-container {
+  background-color: var(--color-accent);
+  border-radius: 20px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-button-icon-container:hover,
+.modal-button-icon-container:focus {
+  background-color: var(--color-pressed);
+  fill: var(--color-white-background);
+}
+
 /* end of utility classes*/
 
 /* Header section */

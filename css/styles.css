@@ -53,7 +53,9 @@ ul,
 menu {
   list-style: none;
 }
+/* end of utility classes*/
 
+/* modal */
 .is-hidden {
   pointer-events: none;
   visibility: hidden;
@@ -105,8 +107,7 @@ menu {
   background-color: var(--color-pressed);
   fill: var(--color-white-background);
 }
-
-/* end of utility classes*/
+/* end of Modal */
 
 /* Header section */
 .header-container {

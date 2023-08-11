@@ -595,6 +595,7 @@ menu {
   text-decoration: none;
   color: var(--color-navy-blue);
 }
+
 .gallery-image-list-item:hover,
 .gallery-image-list-item:focus {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),

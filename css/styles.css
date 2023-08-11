@@ -595,6 +595,9 @@ menu {
   text-decoration: none;
   color: var(--color-navy-blue);
 }
+.gallery-image-list-item {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .gallery-image-list-item:hover,
 .gallery-image-list-item:focus {
